@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 @RunWith(Cucumber.class)
 @CucumberOptions(features=".\\Features",glue={"com.ui.stepdefinations"},strict=true,
 plugin = { "pretty", "json:target/cucumber-reports/Cucumber.json",
-		 "junit:target/cucumber-reports/Cucumber.xml","html:target/cucumber-reports"},tags={"@API,@UI"})
+		 "junit:target/cucumber-reports/Cucumber.xml","html:target/cucumber-reports"})
 public class Runner {
 
 }
