@@ -58,7 +58,7 @@ public class FCHomePage extends UITestBase {
 
 		driver.switchTo().window(handle);
 
-		Thread.sleep(5000);
+		
 
 		Actions action = new Actions(driver);
 
