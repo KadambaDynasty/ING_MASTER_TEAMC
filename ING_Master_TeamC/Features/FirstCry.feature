@@ -1,4 +1,3 @@
-@UI
 Feature: Capture list of centres in respective location
 
 Scenario: validate the navigation to All Categories link
